@@ -7,14 +7,19 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
+  background-image: url("https://wallpapershome.com/images/pages/pic_h/26545.jpg");
+  background-size: cover;
 }
-
 .app {
-  background: white;
+  background: rgba(41, 60, 93, 0.2);
   padding: 30px;
   border-radius: 10px;
+  border:2px solid black;
   text-align: center;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  --glass-bg:rgba(255,255,255,0,12);
+  --glass-border:rgba(255,255,255,0,18);
+  color:black;
 }
 
 button {
