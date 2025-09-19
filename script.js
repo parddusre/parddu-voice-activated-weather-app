@@ -72,3 +72,4 @@ function speakWeather(city, temp, desc) {
     window.speechSynthesis.speak(msg);
   }
 }
+
